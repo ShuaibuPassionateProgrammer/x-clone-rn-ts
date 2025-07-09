@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
         maxLength: 160
     },
 
-    
+    location: {},
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
