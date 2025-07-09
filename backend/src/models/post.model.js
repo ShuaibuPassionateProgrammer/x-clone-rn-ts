@@ -17,7 +17,9 @@ const postSchema = new mongoose.Schema({
         default: ""
     },
 
-    likes: [],
+    likes: [
+        {}
+    ],
 }, { timestamps: true });
 
 const Post = mongoose.model("Post", postSchema);
