@@ -39,7 +39,9 @@ const userSchema = new mongoose.Schema({
         maxLength: 160
     },
 
-    location: {},
+    location: {
+        type: String,
+    },
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
