@@ -36,6 +36,7 @@ const userSchema = new mongoose.Schema({
     bio: {
         type: String,
         default: "",
+        maxLength: 160,
     }
 }, { timestamps: true });
 
