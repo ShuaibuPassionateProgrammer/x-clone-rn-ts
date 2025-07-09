@@ -28,7 +28,9 @@ const userSchema = new mongoose.Schema({
         default: ""
     },
 
-    bannerImage: {},
+    bannerImage: {
+        type: String,
+    },
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
