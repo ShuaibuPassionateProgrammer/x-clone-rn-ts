@@ -9,6 +9,7 @@ const postSchema = new mongoose.Schema({
 
     content: {
         type: String,
+        maxLength: 280
     },
 }, { timestamps: true });
 
