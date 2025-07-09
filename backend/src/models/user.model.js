@@ -44,7 +44,9 @@ const userSchema = new mongoose.Schema({
         default: ""
     },
 
-    followers: [],
+    followers: [
+        {},
+    ],
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
