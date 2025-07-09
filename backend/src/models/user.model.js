@@ -45,7 +45,9 @@ const userSchema = new mongoose.Schema({
     },
 
     followers: [
-        {},
+        {
+            
+        },
     ],
 }, { timestamps: true });
 
