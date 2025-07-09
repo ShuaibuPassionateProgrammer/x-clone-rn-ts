@@ -36,8 +36,10 @@ const userSchema = new mongoose.Schema({
     bio: {
         type: String,
         default: "",
-        maxLength: 160,
-    }
+        maxLength: 160
+    },
+
+    
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
