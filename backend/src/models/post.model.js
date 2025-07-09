@@ -6,6 +6,8 @@ const postSchema = new mongoose.Schema({
         ref: "User",
         required: true
     },
+
+    content: {},
 }, { timestamps: true });
 
 const Post = mongoose.model("Post", postSchema);
