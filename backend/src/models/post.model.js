@@ -24,7 +24,9 @@ const postSchema = new mongoose.Schema({
         }
     ],
 
-    comments: [],
+    comments: [
+        {}
+    ],
 }, { timestamps: true });
 
 const Post = mongoose.model("Post", postSchema);
