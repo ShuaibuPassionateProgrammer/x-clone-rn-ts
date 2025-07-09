@@ -8,4 +8,5 @@ export const ENV = {
     MONGO_URI: process.env.MONGO_URI,
     CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
+    CLOUD_CLOUDINARY_NAME: process.env.CLOUD_CLOUDINARY_NAME,
 };
