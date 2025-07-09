@@ -32,6 +32,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: "",
     },
+
+    bio: {}
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
