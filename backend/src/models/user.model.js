@@ -30,6 +30,7 @@ const userSchema = new mongoose.Schema({
 
     bannerImage: {
         type: String,
+        default: "",
     },
 }, { timestamps: true });
 
