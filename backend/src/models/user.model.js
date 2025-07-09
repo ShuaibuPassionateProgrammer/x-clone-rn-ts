@@ -50,6 +50,8 @@ const userSchema = new mongoose.Schema({
             ref: "User"
         },
     ],
+
+    following: [],
 }, { timestamps: true });
 
 const User = mongoose.model("User", userSchema);
