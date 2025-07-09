@@ -11,6 +11,8 @@ const postSchema = new mongoose.Schema({
         type: String,
         maxLength: 280
     },
+
+    image: {},
 }, { timestamps: true });
 
 const Post = mongoose.model("Post", postSchema);
