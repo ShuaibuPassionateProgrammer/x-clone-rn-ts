@@ -16,6 +16,8 @@ const postSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
+
+    likes: [],
 }, { timestamps: true });
 
 const Post = mongoose.model("Post", postSchema);
