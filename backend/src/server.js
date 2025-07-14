@@ -4,4 +4,6 @@ import { connectDB } from "./config/db.js";
 
 const app = express();
 
+connectDB();
+
 app.listen(ENV.PORT, () => console.log("Server running on PORT:", ENV.PORT));
