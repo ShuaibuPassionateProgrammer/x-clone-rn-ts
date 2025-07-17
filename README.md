@@ -6,13 +6,13 @@ Key features:
 
 <ol>
   <li>User authentication</li>
-  <li>User authentication</li>
+  <li>Real-time updates (tweets, likes, comments)</li>
   <li>User authentication</li>
   <li>User authentication</li>
 </ol>
 
 
-Real-time updates (tweets, likes, comments)
+
 
 Responsive design for all devices
 
