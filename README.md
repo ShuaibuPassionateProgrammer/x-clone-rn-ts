@@ -8,12 +8,5 @@ Key features:
   <li>User authentication</li>
   <li>Real-time updates (tweets, likes, comments)</li>
   <li>Responsive design for all devices</li>
-  <li>User authentication</li>
+  <li>TypeScript for strict type-checking and improved developer experience</li>
 </ol>
-
-
-
-
-
-
-TypeScript for strict type-checking and improved developer experience
