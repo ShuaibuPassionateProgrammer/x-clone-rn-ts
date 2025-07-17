@@ -7,13 +7,13 @@ Key features:
 <ol>
   <li>User authentication</li>
   <li>Real-time updates (tweets, likes, comments)</li>
-  <li>User authentication</li>
+  <li>Responsive design for all devices</li>
   <li>User authentication</li>
 </ol>
 
 
 
 
-Responsive design for all devices
+
 
 TypeScript for strict type-checking and improved developer experience
