@@ -4,7 +4,13 @@ This project is a modern web application built to replicate the functionality an
 
 Key features:
 
-User authentication
+<ol>
+  <li>User authentication</li>
+  <li>User authentication</li>
+  <li>User authentication</li>
+  <li>User authentication</li>
+</ol>
+
 
 Real-time updates (tweets, likes, comments)
 
