@@ -18,3 +18,6 @@ It serves as an excellent hands-on learning experience for building complex web 
 - **Firebase** (or any other backend, depending on your setup) for user authentication and real-time data sync.
 
 This project demonstrates best practices in modern web development and is perfect for anyone looking to deepen their understanding of React and TypeScript.
+
+
+
