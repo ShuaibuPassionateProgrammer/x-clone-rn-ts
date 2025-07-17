@@ -4,9 +4,9 @@ This project is a modern web application built to replicate the functionality an
 
 Key features:
 
-<ol>
+<ul>
   <li>User authentication</li>
   <li>Real-time updates (tweets, likes, comments)</li>
   <li>Responsive design for all devices</li>
   <li>TypeScript for strict type-checking and improved developer experience</li>
-</ol>
+</ul>
